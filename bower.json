@@ -1,8 +1,8 @@
 {
-	name: "extnd",
-	version: "0.0.1",
-	main: "extnd.js",
-	ignore: [
+	"name": "extnd",
+	"version": "0.0.1",
+	"main": "extnd.js",
+	"ignore": [
 	".*",
 	"*.custom.*",
 	"*.template.*",
