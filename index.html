@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>extnd demo</title>
+	<script src="extnd.js"></script>
+</head>
+<body>
+
+	<script>
+	var Animal = Class.extnd({
+		init: function(name) {
+			this.name = name;
+		},
+
+		getAge: function() {
+			return '9 million years old';	
+		}
+	});
+
+	var Bird = Animal.extnd({
+		wings: 'wings',
+
+		init: function(name) {
+			this._super.apply(this, arguments);
+			console.log('I am a bird, animal tells me my name is', this.name);
+		}
+	});
+
+	var HummingBird = Animal.extnd(Bird).extnd({
+		init: function(name) {
+			this._super.apply(this, arguments);
+			console.log('Hummingbirds have', this.wings);
+			console.log('Hummingbirds is', this.getAge());
+		}
+	});
+
+	var hummingBird = new HummingBird('FlappyPappy');
+	</script>
+
+</body>
+</html>
