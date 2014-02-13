@@ -1,0 +1,26 @@
+{
+  "name": "extnd",
+  "version": "0.0.1",
+  "description": "Multiple inheritance and _super in javascript",
+  "main": "extnd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DominicTobias/extnd.git"
+  },
+  "keywords": [
+    "javascript",
+    "multiple",
+    "inheritance",
+    "extend",
+    "extnd"
+  ],
+  "author": "Dominic Tobias <dominic.tobias@gmail.com> (http://dominictobias.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DominicTobias/extnd/issues"
+  },
+  "homepage": "https://github.com/DominicTobias/extnd"
+}
