@@ -2,7 +2,7 @@
 
 Extend is based off Jon Resig's [Simple JavaScript Inhertitance](http://ejohn.org/blog/simple-javascript-inheritance/)  blog post with the added support for multiple inheritance.
 
-It is recommended you import `extnd.js` using a CJS or AMD loader. Otherwise `Class` will be added to window - which is a kinda common name.
+It is recommended you import `extnd.js` using a CJS or AMD loader. Otherwise `Class` will be added to `window` and you could have name collisions.
 
 ## Usages
 
