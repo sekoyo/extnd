@@ -1,6 +1,6 @@
 {
   "name": "extnd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Multiple inheritance and _super in javascript",
   "main": "extnd.js",
   "scripts": {

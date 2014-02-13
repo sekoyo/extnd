@@ -60,8 +60,10 @@
 		// The constructor calls the init method - all construction logic happens
 		// in this method.
 		child = function() {
-			this.init.apply(this, arguments);
-		}
+			if (this.init) {
+				this.init.apply(this, arguments);
+			}
+		};
 
 		// Extend `extnd` and `__super__` into child.
 		for (var prop in parent) {
