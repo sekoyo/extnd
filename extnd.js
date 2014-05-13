@@ -62,7 +62,7 @@
 				child.prototype[prop] = protoProps[prop];
 			}
 
-			// A function wrapper which assigns this._super for the furation of the call,
+			// A function wrapper which assigns this._super for the duration of the call,
 			// then marks the function so it can be unwrapped and re-wrapped for the next
 			// call which allows for proper multiple inheritance.
 			var functionWrapper = function (name, fn) {
