@@ -9,11 +9,11 @@ It is recommended you import `extnd.js` using a CJS or AMD loader. Otherwise `Cl
 For your `constructor` method use `init` instead.
 
 	var Animal = Class.extnd({
-		init: function(name) {
+		init: function (name) {
 			this.name = name;
 		},
 
-		getName: function() {
+		getName: function () {
 			return this.name;
 		}
 	});
@@ -21,7 +21,7 @@ For your `constructor` method use `init` instead.
 And to inherit:
 
 	var Bird = Animal.extnd({
-		init: function() {
+		init: function () {
 			this._super.apply(this, arguments);
 			console.log('Animal says my name is', this.getName());
 		}
@@ -35,7 +35,7 @@ You can string extensions together (multiple inheritance):
 			flapCount: 0
 		},
 
-		fastFlapping: function() {
+		fastFlapping: function () {
 			// wow, much flapping
 			this.carefulWithThisObject.flapCount++;
 		}
