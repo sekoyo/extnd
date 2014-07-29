@@ -1,6 +1,5 @@
 {
 	"name": "extnd",
-	"version": "0.0.2",
 	"main": "extnd.js",
 	"keywords": [
 		"extnd",
@@ -13,6 +12,13 @@
 		"object",
 		"orientation"
 	],
+	"authors": [
+		"Dominic Tobias", "Dominic Tobias <dominic.tobias@gmail.com>"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/DominicTobias/extnd.git"
+	},
 	"ignore": [
 		".*",
 		"*.custom.*",
