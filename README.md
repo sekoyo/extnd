@@ -26,6 +26,12 @@ And to inherit:
 			console.log('Animal says my name is', this.getName());
 		}
 	});
+	
+Note in the example above we call the parent method with `this._super`. This reference is dynamic in a way that supports multiple inheritance. You can of course call it in any way you would call a normal method:
+
+	this._super([arg1[, arg2[, ...]]);
+	this._super.call(thisArg[, arg1[, arg2[, ...]]);
+	this._super.apply(thisArg, [argsArray]);
 
 You can string extensions together (multiple inheritance):
 
