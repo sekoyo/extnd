@@ -109,11 +109,11 @@
 	};
 
 	// Expose.
-	if (typeof exports !== 'undefined') {
-		// Node.js
-		exports.Class = Class;
-	} else if (typeof define !== 'undefined') {
-		// RequireJS
+	if (typeof module !== 'undefined' && module.exports) {
+		// CommonJS / Node.js
+		module.exports = Class;
+	else if (typeof define !== 'undefined' && define.amd) {
+		// AMD / RequireJS
 		define(function() {
 			return Class;
 		});
