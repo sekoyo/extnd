@@ -57,6 +57,10 @@ var HummingBird = Animal.extnd(Bird).extnd({
 
 It is worth noting that `flapsVeryFast` and `carefulWithThisObject` variable exists in the class-scope. `flapsVeryFast` is a primitive and so it will be copied to all instances. However `carefulWithThisObject` is an Object and it will be shared, therefore making a `flapCount` incrementor here a bad idea as all instances will increment it. To create variables in instance-scope create them inside a Function e.g. `this.carefulWithThisObject = ...`
 
-# License
+## License
 
 Released under the MIT license (see LICENSE for jargon).
+
+## Credits
+
+[Michal Kot](https://github.com/michalkot) for his multiple inheritance idea
