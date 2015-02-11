@@ -1,8 +1,8 @@
 # Extnd
 
-Extend is based off Jon Resig's [Simple JavaScript Inhertitance](http://ejohn.org/blog/simple-javascript-inheritance/)  blog post with the added support for multiple inheritance and AMD & NodeJS loaders. It is also lint-free and removes a superfluous check which breaks Closure Compiler. This inheritence system has been tested on large production apps for desktop and mobile.
+Extend is based off Jon Resig's [Simple JavaScript Inhertitance](http://ejohn.org/blog/simple-javascript-inheritance/)  blog post with the added support for multiple inheritance and AMD & CommonJS loaders. It is also lint-free and removes a superfluous check which breaks Closure Compiler. This inheritence system has been tested on large production apps for desktop and mobile.
 
-It is recommended you import `extnd.js` using a CJS or AMD loader. Otherwise `Class` will be added to `window` and you could have name collisions.
+It is recommended you import `extnd.js` using a CommonJS or AMD loader. Otherwise `Class` will be added to `window` and you could have name collisions.
 
 ## Usages
 
