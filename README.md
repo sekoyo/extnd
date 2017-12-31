@@ -4,7 +4,8 @@ Extend is based off Jon Resig's [Simple JavaScript Inhertitance](http://ejohn.or
 
 It is recommended you import `extnd.js` using a CommonJS or AMD loader. Otherwise `Class` will be added to `window` and you could have name collisions.
 
-## Usage
+Usage
+=====
 
 For your `constructor` method use `init` instead.
 
